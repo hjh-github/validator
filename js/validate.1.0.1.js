@@ -71,9 +71,14 @@
             }
           });
         });
+        this.curstomRules = $.fn.curstomRules;
+        return this;
       } else {
         throw new Error("is not form");
       }
+    };
+    $.fn.curstomRules = function(rules) {
+      $.extend(__RULES__, rules);
     };
   },
   "validator"
