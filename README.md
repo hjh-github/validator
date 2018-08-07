@@ -12,11 +12,13 @@
 -- 启用 </br>
 $(fromDom).validator({}) </br> 
 --- 自定义规则 </br>
+```
 $(fromDom).validator({}).customRules(params)</br>
 or --> $.fn.customRules(params)</br>
-option ---> { </br>
+params ---> { </br>
   'ruleName':function(){ </br>
     return rule; </br>
   } </br>
 } </br>
+```
 待完善
