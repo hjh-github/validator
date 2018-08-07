@@ -1,7 +1,7 @@
 # validator
 * 一个基于JQ,BOOTSTRAP的简易表单验证插件 
   > <a--form> 
-  > <a--input data-vd-[ruleName]="true"> //表示需要校验这个规则 
+  > <a--input data-vd-ruleName="true"> //表示需要校验这个规则 
   > </a--form> 
 * 默认提供的rule： 
  > require --> 必填项 
